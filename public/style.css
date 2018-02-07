@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: 'Voltaire';
+	text-align: center;
+}
+header {
+	background-color: #292929;
+	color: #896738;
+	padding: 20px;
+}
+header a {
+	color: #896738;
+}
+h1 {
+	font-family: 'Voltaire';
+	text-align: center;
+	margin: 0;
+}
+ul {
+	display: inline-block;
+}
+li {
+	list-style-position: inside;
+	list-style-type: none;
+}
+div.stats {
+	background: url(http://ops-site.squarespace.com/assets/ocean-bg.jpg);
+    /* background: #a38d8d; */
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 244px;
+    text-shadow: 2px 2px #000;
+    display: none;
+}
+th, tr {
+	padding-right: 6px;
+}
+}
+.stats p {
+	margin: 0;
+	padding: 0;
+}
+.blog-category-head {
+   margin: 0;
+   padding: 0;
+}
+
+
+#blogContent .blog-title h4, #blogContent .blog-title h4 A {
+    font-size: 18px; 
+    color: #003264;    /* change to fit your layout */
+    line-height: normal; 
+    text-align: left;
+    font-weight: bold; 
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+#blogContent .blog-title h4 A:hover {
+    color: #003264;    /* change to fit your layout */ 
+    font-weight: bold; 
+    text-decoration: underline;
+}
+
+#blogContent .blog-name {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#blogContent .blog-item {
+     width: 20%;
+     margin: 0 2% 30px 2%; 
+     display: inline-block; 
+     text-align: left; 
+     vertical-align: top;
+}
+
+#blogContent .blog-item:nth-child(4n+0) {
+    margin-right: 0;
+}
+#blogContent .blog-item:nth-child(4n+1) {
+    margin-left: 0;
+}
+#blogContent .blog-item .blog-img {
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 185px;
+    height: 185px;
+}
+#blogContent .blog-item .blog-img IMG {
+    max-width: 175px;
+    max-height: 175px;
+    padding: 5px;
+    display: block;
+}
+#blogContent .blog-item .desc-text {
+
+}
